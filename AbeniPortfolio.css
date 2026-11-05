@@ -475,73 +475,65 @@ html {
 .abeni_projects_content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 18px;
 }
 
 .abeni_project_card {
-    background-color: #080b10;
-    border: 1px solid #1d2b3b;
-    padding: 20px;
-    border-radius: 8px;
-    transition: border-color 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px;
+    background-color: #0c1118;
+    border: 1px solid rgba(220, 234, 255, 0.14);
+    border-radius: 6px;
 }
 
 .abeni_project_card:hover {
-    border-color: #42617e;
-}
-
-.abeni_project_number {
-    color: #7893ad;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 12px;
+    border-color: rgba(220, 234, 255, 0.3);
 }
 
 .abeni_project_image {
     display: block;
     width: 100%;
-    aspect-ratio: 16 / 10;
-    margin-bottom: 16px;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 14px;
     overflow: hidden;
-    border: 1px solid #1d2b3b;
-    border-radius: 5px;
+    border: 1px solid rgba(220, 234, 255, 0.14);
+    border-radius: 4px;
     object-fit: cover;
-    background-color: #0a0e14;
+    background-color: #080b10;
 }
 
 .abeni_project_card h3 {
     color: #dceaff;
-    font-size: 21px;
-    margin: 0 0 10px;
+    font-size: 20px;
+    margin: 0 0 8px;
 }
 
 .abeni_project_card p {
     color: #b9cce3;
     font-size: 15px;
-    line-height: 1.55;
-    min-height: 0;
+    line-height: 1.6;
     margin: 0;
 }
 
 .abeni_project_technologies {
-    color: #91a7bc;
+    color: #a4b4c5;
     font-size: 14px;
-    font-weight: 600;
-    margin: 16px 0;
+    margin: auto 0 12px;
+    padding-top: 16px;
 }
 
 .abeni_project_link {
     display: inline-block;
-    color: #8db4d8;
+    color: #9dc9f2;
     text-decoration: none;
     font-size: 14px;
-    border-bottom: 1px solid #42617e;
-    padding-bottom: 3px;
 }
 
 .abeni_project_link:hover {
     color: #ffffff;
-    border-color: #ffffff;
+    text-decoration: underline;
 }
 
 
